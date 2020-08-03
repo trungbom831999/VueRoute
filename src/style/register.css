@@ -7,9 +7,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     /* left: 0; */
     position: absolute;
     right: 0;
-    top: 0;
-    width: 50vw;
-    /* margin-left: 500px; */
+    top: 5px;
+    width: 65%;
 }
 
 #description::-webkit-scrollbar {
@@ -122,6 +121,16 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   #sex {
     padding-bottom: 5px;
   }
+
+  #form-description{
+    width: 100%;
+    /* padding-left: 15px;
+    padding-right: 15px; */
+  }
+
+  #textareaLength{
+    font-size: 15px;
+  }
   
   #submit-btn{
     margin-bottom: 10px;
@@ -130,7 +139,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     /* color: #e6e6e6; */
   }
 
-  @media(max-width: 1295px){
+  /* @media(max-width: 1295px){
     input[type="date"]::-webkit-calendar-picker-indicator {
         width: 48vw;
     }
@@ -179,4 +188,4 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     input[type="date"]::-webkit-calendar-picker-indicator {
         width: 22vw;
     }
-  }
+  } */

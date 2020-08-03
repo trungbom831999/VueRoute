@@ -56,7 +56,7 @@ Vue.use(VueRouter)
     meta: {requiresAuth: true}
   },
   {
-    path: '/user/name=:name/pass=:password/bd=:birthday/sex=:sex/level=:level/des=:des',
+    path: '/user/name=:name/pass=:password/bd=:birthday/sex=:sex/level=:level/email=:email/phone=:phone/des=:des',
     name: 'User',
     component: () => import(/* webpackChunkName: "user" */ '../components/User.vue')
   }
